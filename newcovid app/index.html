@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Covid 19 Vaccination DashBoard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="dash.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+    <body>
+    <!--navbar-->
+        <nav class="navbar navbar-light" style="background-color:#2AC0D9">
+            <a class="navbar-brand" style="color:aliceblue" href="#"> <button class="btn btn-sm btn-outline-secondary" type="button">LiveDash</button></a>
+        </nav>  
+    <!--navbar ends here-->
+  
+
+    <div class="flex-container">
+        <div style="flex-grow: 2" id="areachart">1 </div>
+        <div style="flex-grow: 1" id="piechart">2</div>
+        <div style="flex-grow: 1" id="countries">3</div>
+        <div style="flex-grow: 8" id="columnchart" >5</div>
+      </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="dash.js" async defer></script>
+    </body>
+</html>
